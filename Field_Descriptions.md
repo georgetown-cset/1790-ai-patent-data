@@ -1,4 +1,4 @@
-The rows of data contained within the annotated [patent data index](https://github.com/georgetown-cset/1790-ai-patent-data/blob/master/patent_database.csv.zip) are described below either individually or as a group.
+The data fields contained within the annotated [patent data index](https://github.com/georgetown-cset/1790-ai-patent-data/blob/master/patent_database.csv.zip) are described below either individually or as a group.
 
 ## Header
 - Publication_country: two letter code of the patent issuing authority country
