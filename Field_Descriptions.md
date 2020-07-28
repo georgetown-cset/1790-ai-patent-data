@@ -10,7 +10,7 @@ The rows of data contained within the annotated [patent data index](https://gith
 - num_ai_techniques: the total number of AI technique categories that are relevant to this patent document
 - has_application_field: Boolean variable set to true if any application fields have been assigned to the patent document
 - has_functional_application: Boolean variable set to true if any functional applications have been assigned to the patent document
-- has_ai_technique: Boolean variable set to true if any AI techniques have been assigned to the patent document
+- has_ai_technique: Boolean variable set to TRUE if any AI techniques have been assigned to the patent document
 
 ## Application Fields Categories - Boolean flag set to TRUE if category matches query
 - Physical_Sciences_and_Engineering
