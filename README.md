@@ -143,30 +143,30 @@ This dimension is concerned with the field of application described in a patent 
 
 **CATEGORY 1 – Physical Science/Engineering**
 
-- >=B01\* AND <=B07\* 
-- >=F03B\* AND <=F03C\* 
+- \>=B01\* AND \<=B07\* 
+- \>=F03B\* AND \<=F03C\* 
 - Y10S 706/924 
-- >=C01\* AND <=C05\* 
-- >=F03G\* AND <=F02H\* 
+- \>=C01\* AND \<=C05\* 
+- \>=F03G\* AND \<=F02H\* 
 - E21B 2041/0028 
-- >=C07\* AND <=C10\* 
+- \>=C07\* AND \<=C10\* 
 - F04\* 
 - H02P 21/0014 
-- >=C21\* AND <=C30\* 
-- >=F15\* AND <=F17\* 
+- \>=C21\* AND \<=C30\* 
+- \>=F15\* AND \<=F17\* 
 - H02P 23/0018 
-- >=E01\* AND <=E06\* 
-- >=F21\* AND <=F24H\* 
+- \>=E01\* AND \<=E06\* 
+- \>=F21\* AND \<=F24H\* 
 - B09\* 
 - E21\* 
 - G06Q 50/08 
 - F17D\* 
 - F01\* 
-- >=H01B\* AND <=H01K\* 
+- \>=H01B\* AND \<=H01K\* 
 - C14B\* 
 - F02C\* 
-- >=Y02A 10\* AND <=Y02A 30\* 
-- >=F02G\* AND <=F02K\* 
+- \>=Y02A 10\* AND \<=Y02A 30\* 
+- \>=F02G\* AND \<=F02K\* 
 - Y02A 50\* 
 
 **CATEGORY 2 – Life Sciences**
@@ -174,11 +174,11 @@ This dimension is concerned with the field of application described in a patent 
 - A61\* 
 - Y10S 128\* 
 - H04R 25/507 
-- >=C12M\* AND <=C12Y\* 
+- \>=C12M\* AND \<=C12Y\* 
 - Y10S 514\* 
 - Y10S 424\* 
 - G16B\* 
-- >=Y10S 600\* AND <=Y10S 624\* 
+- \>=Y10S 600\* AND \<=Y10S 624\* 
 - G16C\* 
 - G16H\* 
 - Y10S 930\* 
@@ -197,25 +197,25 @@ This dimension is concerned with the field of application described in a patent 
 
 **CATEGORY 4 – Transportation**
 
-- >=B60\* AND <=B64\* 
+- \>=B60\* AND \<=B64\* 
 - G01C 21\* 
 - Y10S 903\* 
 - F02B\* 
 - Y02T\* 
 - G05D 1/0088 
-- >=F02D\* AND <=F02F\* 
+- \>=F02D\* AND \<=F02F\* 
 - Y10S 123\* 
 - B64\* 
-- >=F02M\* AND <=F02P\* 
+- \>=F02M\* AND \<=F02P\* 
 - Y10S 706/905 
 - F02D\* 
 
 **CATEGORY 5 – Industrial/Manufacturing**
 
-- >=B21\* AND <=B33\* 
+- \>=B21\* AND \<=B33\* 
 - Y10S 8\* 
 - A24\* 
-- >=B65\* AND <=B67\* 
+- \>=B65\* AND \<=B67\* 
 - Y10S 29\* 
 - A4\* 
 - C11\* 
@@ -224,13 +224,13 @@ This dimension is concerned with the field of application described in a patent 
 - C13\* 
 - Y02W\* 
 - B07\* 
-- >=D01\* AND <=D07\* 
+- \>=D01\* AND \<=D07\* 
 - F05B 2270/707 
 - B08\* 
 - D21\* 
 - F05B 2270/709 
 - B43\* 
-- >=F26\* AND <=F28\* 
+- \>=F26\* AND \<=F28\* 
 - F16H 2061/0081 
 - B67\* 
 - G06Q 50/04 
@@ -316,7 +316,7 @@ This dimension is concerned with the field of application described in a patent 
 - H04\* 
 - G01N 29/4481 
 - H01P\* 
-- >=Y02D 30\* AND <=Y02D 70\* 
+- \>=Y02D 30\* AND \<=Y02D 70\* 
 - G01S 7/417 
 - H01Q\* 
 - Y10S 370\* 
@@ -353,7 +353,7 @@ This dimension is concerned with the field of application described in a patent 
 - Y04S\* 
 - H01H\* 
 - G21\* 
-- >=H04L 31/04\* AND <=H01L 31/07\* 
+- \>=H04L 31/04\* AND \<=H01L 31/07\* 
 - H01R\* 
 - H01M\* 
 - F28F\* 
@@ -362,7 +362,7 @@ This dimension is concerned with the field of application described in a patent 
 **CATEGORY 17 – Entertainment**
 
 - A63\* 
-- >=G10B\* AND <=G10H\* 
+- \>=G10B\* AND \<=G10H\* 
 - Y10S 273\* 
 
 **CATEGORY 18 – Nanotechnology**
@@ -413,13 +413,13 @@ This dimension relates to the function being carried out by the invention descri
 
 **CATEGORY 23 – Planning/Scheduling**
 
-- >=Y10S 706/919\* AND <=Y10S 706/923\* 
+- \>=Y10S 706/919\* AND \<=Y10S 706/923\* 
 - G09D\* 
 - G06Q 10\* 
 
 **CATEGORY 24 – Control**
 
-- >=Y10S 706/903\* AND <=Y10S 706/909\* 
+- \>=Y10S 706/903\* AND \<=Y10S 706/909\* 
 - B23K 31/006 
 - G08B 29/186 
 - G08G\* 
@@ -516,7 +516,7 @@ This dimension refers to the specific type of statistical or mathematical model 
 **CATEGORY 30 – Logic Programming**
 
 - G06F 8/313 
-- >=G06N 5/041\* AND <=G06N 5/047\* 
+- \>=G06N 5/041\* AND \<=G06N 5/047\* 
 - G06N 5/00 
 - G06F 8/3135 
 - G05B 2219/33002 
@@ -540,7 +540,7 @@ This dimension refers to the specific type of statistical or mathematical model 
 - G06N 5/048 
 - F05B 2270/707 
 - G05B 13/0295 
-- >=G06N 7/02\* AND <=G06N 7/06\* 
+- \>=G06N 7/02\* AND \<=G06N 7/06\* 
 - B60G 2600/1879 
 - F16H 2061/0081 
 - Y10S 706/90 
@@ -581,7 +581,7 @@ This dimension refers to the specific type of statistical or mathematical model 
 
 **CATEGORY 34 – Machine Learning**
 
-- >=G06N 3/02\* AND <=G06N 3/126\* 
+- \>=G06N 3/02\* AND \<=G06N 3/126\* 
 - G06F 11/1476 
 - H03H 2017/0208 
 - A61B 5/7264 
