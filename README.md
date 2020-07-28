@@ -8,7 +8,7 @@ The AI patent database contains a total of 287,532 records. Each record has a si
 
 ## Patent Classifications and Keywords Used to Define AI Patent Universe
 
-The follwoing table lists the Cooperative Patent Classifications (CPCs) used to define the AI patent data universe. Note that classifications in bold type were also searched using International Patent Classifications (IPCs). The CPC system is much more detailed than the IPC, so many specific CPCs have no equivalent IPC. The overall search strategy is Patent Classification **OR** Keyword (see list below).
+The following table lists the Cooperative Patent Classifications (CPCs) used to define the AI patent data universe. Note that classifications in bold type were also searched using International Patent Classifications (IPCs). The CPC system is much more detailed than the IPC, so many specific CPCs have no equivalent IPC. The overall search strategy is Patent Classification **OR** Keyword (see list below).
 
 **Patent Classifications Used to Define the AI Patent Data Universe**
 
@@ -117,7 +117,7 @@ The follwoing table lists the Cooperative Patent Classifications (CPCs) used to 
 
 ## Application Fields Categories with Patent Classifications
 
-This dimension is concerned with the field of application described in a patent (where such an application is specified). The categories in this dimension are shown in the following table. The patent classifications used to assign patents to each category are listed in below. Note: for all patent classifications listed, \* = right truncation, e.g. E21\* includes all subclasses within class E21.
+This dimension is concerned with the field of application described in a patent (where such an application is specified). The categories in this dimension are shown in the following list. The patent classifications used to assign patents to each category are listed further below. Note: for all patent classifications listed, \* = right truncation, e.g. E21\* includes all subclasses within class E21.
 
 **Categories in the Application Fields Dimension**
 
@@ -143,30 +143,30 @@ This dimension is concerned with the field of application described in a patent 
 
 **CATEGORY 1 – Physical Science/Engineering**
 
-- \&gt;=B01\* AND \&lt;=B07\* 
-- \&gt;=F03B\* AND \&lt;=F03C\* 
+- >=B01\* AND <=B07\* 
+- >=F03B\* AND <=F03C\* 
 - Y10S 706/924 
-- \&gt;=C01\* AND \&lt;=C05\* 
-- \&gt;=F03G\* AND \&lt;=F02H\* 
+- >=C01\* AND <=C05\* 
+- >=F03G\* AND <=F02H\* 
 - E21B 2041/0028 
-- \&gt;=C07\* AND \&lt;=C10\* 
+- >=C07\* AND <=C10\* 
 - F04\* 
 - H02P 21/0014 
-- \&gt;=C21\* AND \&lt;=C30\* 
-- \&gt;=F15\* AND \&lt;=F17\* 
+- >=C21\* AND <=C30\* 
+- >=F15\* AND <=F17\* 
 - H02P 23/0018 
-- \&gt;=E01\* AND \&lt;=E06\* 
-- \&gt;=F21\* AND \&lt;=F24H\* 
+- >=E01\* AND <=E06\* 
+- >=F21\* AND <=F24H\* 
 - B09\* 
 - E21\* 
 - G06Q 50/08 
 - F17D\* 
 - F01\* 
-- \&gt;=H01B\* AND \&lt;=H01K\* 
+- >=H01B\* AND <=H01K\* 
 - C14B\* 
 - F02C\* 
-- \&gt;=Y02A 10\* AND \&lt;=Y02A 30\* 
-- \&gt;=F02G\* AND \&lt;=F02K\* 
+- >=Y02A 10\* AND <=Y02A 30\* 
+- >=F02G\* AND <=F02K\* 
 - Y02A 50\* 
 
 **CATEGORY 2 – Life Sciences**
@@ -174,11 +174,11 @@ This dimension is concerned with the field of application described in a patent 
 - A61\* 
 - Y10S 128\* 
 - H04R 25/507 
-- \&gt;=C12M\* AND \&lt;=C12Y\* 
+- >=C12M\* AND <=C12Y\* 
 - Y10S 514\* 
 - Y10S 424\* 
 - G16B\* 
-- \&gt;=Y10S 600\* AND \&lt;=Y10S 624\* 
+- >=Y10S 600\* AND <=Y10S 624\* 
 - G16C\* 
 - G16H\* 
 - Y10S 930\* 
@@ -197,25 +197,25 @@ This dimension is concerned with the field of application described in a patent 
 
 **CATEGORY 4 – Transportation**
 
-- \&gt;=B60\* AND \&lt;=B64\* 
+- >=B60\* AND <=B64\* 
 - G01C 21\* 
 - Y10S 903\* 
 - F02B\* 
 - Y02T\* 
 - G05D 1/0088 
-- \&gt;=F02D\* AND \&lt;=F02F\* 
+- >=F02D\* AND <=F02F\* 
 - Y10S 123\* 
 - B64\* 
-- \&gt;=F02M\* AND \&lt;=F02P\* 
+- >=F02M\* AND <=F02P\* 
 - Y10S 706/905 
 - F02D\* 
 
 **CATEGORY 5 – Industrial/Manufacturing**
 
-- \&gt;=B21\* AND \&lt;=B33\* 
+- >=B21\* AND <=B33\* 
 - Y10S 8\* 
 - A24\* 
-- \&gt;=B65\* AND \&lt;=B67\* 
+- >=B65\* AND <=B67\* 
 - Y10S 29\* 
 - A4\* 
 - C11\* 
@@ -224,13 +224,13 @@ This dimension is concerned with the field of application described in a patent 
 - C13\* 
 - Y02W\* 
 - B07\* 
-- \&gt;=D01\* AND \&lt;=D07\* 
+- >=D01\* AND <=D07\* 
 - F05B 2270/707 
 - B08\* 
 - D21\* 
 - F05B 2270/709 
 - B43\* 
-- \&gt;=F26\* AND \&lt;=F28\* 
+- >=F26\* AND <=F28\* 
 - F16H 2061/0081 
 - B67\* 
 - G06Q 50/04 
@@ -316,7 +316,7 @@ This dimension is concerned with the field of application described in a patent 
 - H04\* 
 - G01N 29/4481 
 - H01P\* 
-- \&gt;=Y02D 30\* AND \&lt;=Y02D 70\* 
+- >=Y02D 30\* AND <=Y02D 70\* 
 - G01S 7/417 
 - H01Q\* 
 - Y10S 370\* 
@@ -353,7 +353,7 @@ This dimension is concerned with the field of application described in a patent 
 - Y04S\* 
 - H01H\* 
 - G21\* 
-- \&gt;=H04L 31/04\* AND \&lt;=H01L 31/07\* 
+- >=H04L 31/04\* AND <=H01L 31/07\* 
 - H01R\* 
 - H01M\* 
 - F28F\* 
@@ -362,7 +362,7 @@ This dimension is concerned with the field of application described in a patent 
 **CATEGORY 17 – Entertainment**
 
 - A63\* 
-- \&gt;=G10B\* AND \&lt;=G10H\* 
+- >=G10B\* AND <=G10H\* 
 - Y10S 273\* 
 
 **CATEGORY 18 – Nanotechnology**
@@ -383,9 +383,9 @@ This dimension is concerned with the field of application described in a patent 
 
 ## Functional Application Categories with Patent Classifications
 
-This dimension relates to the function being carried out by the invention described in a selected patent. The categories in this dimension are shown in the following table, while the patent classifications used to assign patents to each category are listed below.
+This dimension relates to the function being carried out by the invention described in a selected patent. The categories in this dimension are shown in the following list, while the patent classifications used to assign patents to each category are in the subsequent list below.
 
-**Table 4 – Categories in the Functional Applications Dimension**
+**Categories in the Functional Applications Dimension**
 
 - Language processing 
 - Distributed AI 
@@ -413,13 +413,13 @@ This dimension relates to the function being carried out by the invention descri
 
 **CATEGORY 23 – Planning/Scheduling**
 
-- \&gt;=Y10S 706/919\* AND \&lt;=Y10S 706/923\* 
+- >=Y10S 706/919\* AND <=Y10S 706/923\* 
 - G09D\* 
 - G06Q 10\* 
 
 **CATEGORY 24 – Control**
 
-- \&gt;=Y10S 706/903\* AND \&lt;=Y10S 706/909\* 
+- >=Y10S 706/903\* AND <=Y10S 706/909\* 
 - B23K 31/006 
 - G08B 29/186 
 - G08G\* 
@@ -501,9 +501,9 @@ This dimension relates to the function being carried out by the invention descri
 
 ## AI Techniques Categories with Patent Classifications and Keywords
 
-This dimension refers to the specific type of statistical or mathematical model or technique described in a given patent. The categories in this dimension are shown in the following table. The patent classifications and keywords used to assign patents to each category are listed below. In keywords, ? represents a wildcard for a single character or space, \* represents a wildcard for unlimited characters (e.g. &quot;logic?program\*&quot; includes logic-program, logic programming etc.). Note that all patents are in at least one AI Techniques category, since the Generic/Unspecified category contains those patents not assigned to one of the other AI Techniques categories.
+This dimension refers to the specific type of statistical or mathematical model or technique described in a given patent. The categories in this dimension are shown in the following list. The patent classifications and keywords used to assign patents to each category are listed further below. In keywords, ? represents a wildcard for a single character or space, \* represents a wildcard for unlimited characters (e.g. &quot;logic?program\*&quot; includes logic-program, logic programming etc.). Note that all patents are in at least one AI Techniques category, since the Generic/Unspecified category contains those patents not assigned to one of the other AI Techniques categories.
 
-**Table 5 – Categories in the AI Techniques Dimension**
+**Categories in the AI Techniques Dimension**
 
 - Logic programming 
 - Machine learning 
@@ -516,7 +516,7 @@ This dimension refers to the specific type of statistical or mathematical model 
 **CATEGORY 30 – Logic Programming**
 
 - G06F 8/313 
-- \&gt;=G06N 5/041\* AND \&lt;=G06N 5/047\* 
+- >=G06N 5/041\* AND <=G06N 5/047\* 
 - G06N 5/00 
 - G06F 8/3135 
 - G05B 2219/33002 
@@ -540,7 +540,7 @@ This dimension refers to the specific type of statistical or mathematical model 
 - G06N 5/048 
 - F05B 2270/707 
 - G05B 13/0295 
-- \&gt;=G06N 7/02\* AND \&lt;=G06N 7/06\* 
+- >=G06N 7/02\* AND <=G06N 7/06\* 
 - B60G 2600/1879 
 - F16H 2061/0081 
 - Y10S 706/90 
@@ -581,7 +581,7 @@ This dimension refers to the specific type of statistical or mathematical model 
 
 **CATEGORY 34 – Machine Learning**
 
-- \&gt;=G06N 3/02\* AND \&lt;=G06N 3/126\* 
+- >=G06N 3/02\* AND <=G06N 3/126\* 
 - G06F 11/1476 
 - H03H 2017/0208 
 - A61B 5/7264 
