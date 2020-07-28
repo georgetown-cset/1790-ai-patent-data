@@ -11,3 +11,5 @@ Additional information is provided on how the patent universe and how each of th
 - [Application Fields Categories with Patent Classifications](https://github.com/georgetown-cset/1790-ai-patent-data/blob/master/Application_Fields_Categories.md)
 - [Functional Application Categories with Patent Classifications](https://github.com/georgetown-cset/1790-ai-patent-data/blob/master/Functional_Application_Categories.md)
 - [AI Techniques Categories with Patent Classifications and Keywords](https://github.com/georgetown-cset/1790-ai-patent-data/blob/master/AI_Techniques_Categories.md)
+
+The rows of data contained within the annotated [patent data index](https://github.com/georgetown-cset/1790-ai-patent-data/blob/master/patent_database.csv.zip) are described [here](https://github.com/georgetown-cset/1790-ai-patent-data/blob/master/Field_Descriptions.md).
