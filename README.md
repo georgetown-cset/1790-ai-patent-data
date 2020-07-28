@@ -96,21 +96,23 @@ Table 1 lists the Cooperative Patent Classifications (CPCs) used to define the A
 
 **Note:** Search strategy is Patent Classification (see above) **OR** Keyword.
 
-| artificial +1w intelligen\* |
-| machine\* /1w learn\* |
-| deep +1w learn\* |
-| neural +1w net\* |
-| logic +1w model\* |
-| logic +1w program\* |
-| genetic +1w algorithm\* |
-| fuzzy +1w logic |
-| random +1w forest |
-| support +1w vector +1w machine\* |
-| decision +1w tree\* |
-| boosted +1w tree\* |
+- artificial +1w intelligen\*
+- machine\* /1w learn\*
+- deep +1w learn\*
+- neural +1w net\*
+- logic +1w model\*
+- logic +1w program\*
+- genetic +1w algorithm\*
+- fuzzy +1w logic
+- random +1w forest
+- support +1w vector +1w machine\*
+- decision +1w tree\*
+- boosted +1w tree\*
 
 **where** 1w is proximity of one word
+
 **where** +1w is directional (e.g. neural network, not network neural); /1w is not directional (e.g. machine learning or learning machine) 
+
 **where** \* is a wildcard representing right truncation (e.g. &quot;neural net\*&quot; includes neural network, neural networks, neural nets etc.)
 
 **Application Fields Categories with Patent Classifications**
