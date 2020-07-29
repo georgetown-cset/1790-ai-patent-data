@@ -89,17 +89,17 @@ The following table lists the Cooperative Patent Classifications (CPCs) used to 
 **Note:** Search strategy is Patent Classification (see above) **OR** Keyword.
 
 - artificial +1w intelligen\*
-- machine\* /1w learn\*
+- boosted +1w tree\*
+- decision +1w tree\*
 - deep +1w learn\*
-- neural +1w net\*
+- fuzzy +1w logic
+- genetic +1w algorithm\*
 - logic +1w model\*
 - logic +1w program\*
-- genetic +1w algorithm\*
-- fuzzy +1w logic
+- machine\* /1w learn\*
+- neural +1w net\*
 - random +1w forest
 - support +1w vector +1w machine\*
-- decision +1w tree\*
-- boosted +1w tree\*
 
 **where** 1w is proximity of one word
 
