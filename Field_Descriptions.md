@@ -4,7 +4,7 @@ The data fields contained within the annotated [patent data index](https://githu
 - Publication_country: two letter code of the patent issuing authority country
 - Publication_number: patent document number
 - Simple_family_ID: the identification number for the patent family, which links all patent documents that result from the same initial filing, known as the priority application
-- Publication_type: the kind code of the patent document (see for example, the summary provided by [Derwent](https://clarivate.com/derwent/wp-content/uploads/sites/3/dlm_uploads/2019/08/Kind-Code-Summary.pdf)
+- Publication_type: the kind code of the patent document (see for example, the summary provided by [Derwent](https://clarivate.com/derwent/wp-content/uploads/sites/3/dlm_uploads/2019/08/Kind-Code-Summary.pdf) )
 - num_application_fields: the total number of application fields categories that are relevant to this patent document
 - num_functional_applications: the total number of functional application categories that are relevant to this patent document
 - num_ai_techniques: the total number of AI technique categories that are relevant to this patent document
