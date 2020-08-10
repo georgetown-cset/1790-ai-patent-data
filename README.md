@@ -13,3 +13,15 @@ Additional information is provided on how the patent universe and how each of th
 - [AI Techniques Categories with Patent Classifications and Keywords](https://github.com/georgetown-cset/1790-ai-patent-data/blob/master/AI_Techniques_Categories.md)
 
 The data fields contained within the annotated [patent data index](https://github.com/georgetown-cset/1790-ai-patent-data/blob/master/patent_database.csv.zip) are described [here](https://github.com/georgetown-cset/1790-ai-patent-data/blob/master/Field_Descriptions.md).
+
+Patent documents come in multiple types (e.g., applications, granted, etc.). A query that classifies the broad type is included [here](https://github.com/georgetown-cset/1790-ai-patent-data/blob/master/patent-type-query.sql) using country patent office and kind code information for each document. The summary of the types is as follows:
+
+| Row	| Num_Patents	| patent_granted |
+| -- | -- | -- |
+| 1	| 25948 | Granted Patent |
+| 2	| 160651 | Patent application |
+| 3	| 35906| Granted Utility Patent |
+| 4	| 3066| Other |
+| 5	| 61911| Utility Patent Application |
+| 6	| 44 | Amended Patent |
+| 7	| 6 | Utility Patent Amendment |
