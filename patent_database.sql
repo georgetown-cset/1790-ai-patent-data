@@ -3,7 +3,10 @@
 -- includes the Patent_Type variable (explained elsewhere)
 --
 SELECT 
-  Publication_country,	Publication_number,	Simple_family_ID,	Publication_type,	
+  -- basic patent info
+  Publication_country, Publication_number, Simple_family_ID, Publication_type,
+  
+  -- patent type case statement to classify patent country and kind codes into broad categories
   CASE
     when publication_country = "AR" and Publication_type = "A" then 'Granted Patent'
     when publication_country = "AR" and Publication_type in ("A1", "A2", "A3")  then 'Patent Application'
@@ -270,6 +273,7 @@ SELECT
   
   EXTRACT(YEAR from First_priority_date) as Priority_Year,
   
+  -- Summary information about the categories
   num_application_fields,	num_functional_applications, num_ai_techniques,
   has_application_field	has_functional_application, has_ai_technique,	
   
@@ -284,4 +288,5 @@ SELECT
   
   -- AI Techniques Categories
   Logic_Programming, Fuzzy_Logic, Probabilistic_Reasoning, Ontology_Engineering, Machine_Learning, Search_Methods, Generic_and_Unspecified
+  
 FROM `1790_ai_patents_all_quantitative_information`
