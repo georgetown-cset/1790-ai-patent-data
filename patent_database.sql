@@ -267,17 +267,21 @@ SELECT
 
     else 'Other' -- other (ignore)
   end as Patent_Type,
-  --date_trunc(First_priority_date, YEAR) as Priority_Year,
+  
   EXTRACT(YEAR from First_priority_date) as Priority_Year,
+  
   num_application_fields,	num_functional_applications, num_ai_techniques,
   has_application_field	has_functional_application, has_ai_technique,	
+  
   -- Application Fields Categories
   Physical_Sciences_and_Engineering, Life_Sciences	Security__eg_cybersecurity, Transportation, Industrial_and_Manufacturing, Education,
   Document_Mgt_and_Publishing, Military, Agricultural, Computing_in_Government, Personal_Devices_and_Computing, Banking_and_Finance,
   Telecommunications, Networks__eg_social_IOT_etc	Business, Energy_Management, Entertainment, Nanotechnology, Semiconductors,
+  
   -- Functional Application Categories
   Language_Processing, Speech_Processing, Knowledge_Representation, Planning_and_Scheduling, Control, Distributed_AI, Robotics,
   Computer_Vision, Analytics_and_Algorithms, Measuring_and_Testing,
+  
   -- AI Techniques Categories
   Logic_Programming, Fuzzy_Logic, Probabilistic_Reasoning, Ontology_Engineering, Machine_Learning, Search_Methods, Generic_and_Unspecified
 FROM `1790_ai_patents_all_quantitative_information`
