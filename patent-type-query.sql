@@ -2,7 +2,7 @@
 select
   --date_trunc(First_priority_date, YEAR) as year,
   count(Simple_family_ID) as Num_Patents,
-  patent_granted,
+  Patent_Type,
   from (
     SELECT Simple_family_ID, First_priority_date, Publication_type, publication_country,
       CASE
@@ -267,8 +267,8 @@ select
         when publication_country = "YU" and Publication_type = "A" then 'Patent Application'
     
         else 'Other' -- other (ignore)
-      end as patent_granted,
+      end as Patent_Type,
     FROM `1790_ai_patents_all_quantitative_information`
   )
-group by patent_granted
+group by Patent_Type
 --order by year
