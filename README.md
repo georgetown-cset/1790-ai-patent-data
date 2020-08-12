@@ -18,10 +18,10 @@ Patent documents come in multiple types (e.g., applications, granted, etc.). A q
 
 | Row	| Num_Patents	| patent_granted |
 | -- | -- | -- |
-| 1	| 25948 | Granted Patent |
-| 2	| 160651 | Patent application |
-| 3	| 35906| Granted Utility Patent |
+| 1	| 58790 | Granted Patent |
+| 2	| 222558 | Patent Application |
+| 3	| 3064| Granted Utility Patent |
 | 4	| 3066| Other |
-| 5	| 61911| Utility Patent Application |
+| 5	| 4| Utility Patent Application |
 | 6	| 44 | Amended Patent |
 | 7	| 6 | Utility Patent Amendment |
