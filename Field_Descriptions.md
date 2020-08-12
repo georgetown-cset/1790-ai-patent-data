@@ -13,6 +13,20 @@ The data fields contained within the annotated [patent data index](https://githu
 - has_functional_application: Boolean variable set to true if any functional applications have been assigned to the patent document
 - has_ai_technique: Boolean variable set to TRUE if any AI techniques have been assigned to the patent document
 
+A summary of the Patent_types included in this AI patent database is as follows:
+
+| Row	| Num_Patents	| Patent_Type |
+| :-: | --: | :-- |
+| 1	| 58790 | Granted Patent |
+| 2	| 222558 | Patent Application |
+| 3	| 3064| Granted Utility Patent |
+| 4	| 3066| Other |
+| 5	| 4| Utility Patent Application |
+| 6	| 44 | Amended Patent |
+| 7	| 6 | Utility Patent Amendment |
+
+The query used to generate this table is included [here](https://github.com/georgetown-cset/1790-ai-patent-data/blob/master/patent-type-query.sql).
+
 ## Application Fields Categories - Boolean flag set to TRUE if category matches query
 - Physical_Sciences_and_Engineering
 - Life_Sciences
@@ -54,18 +68,3 @@ The data fields contained within the annotated [patent data index](https://githu
 - Machine_Learning
 - Search_Methods
 - Generic_and_Unspecified
-
-
-A summary of the Patent_types included in this AI patent database is as follows:
-
-| Row	| Num_Patents	| Patent_Type |
-| :-: | --: | :-- |
-| 1	| 58790 | Granted Patent |
-| 2	| 222558 | Patent Application |
-| 3	| 3064| Granted Utility Patent |
-| 4	| 3066| Other |
-| 5	| 4| Utility Patent Application |
-| 6	| 44 | Amended Patent |
-| 7	| 6 | Utility Patent Amendment |
-
-The query used to generate this table is included [here](https://github.com/georgetown-cset/1790-ai-patent-data/blob/master/patent-type-query.sql).
