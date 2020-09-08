@@ -9,8 +9,8 @@ The data fields contained within the annotated [patent data index](https://githu
 - num_application_fields: the total number of application fields categories that are relevant to this patent document
 - num_functional_applications: the total number of functional application categories that are relevant to this patent document
 - num_ai_techniques: the total number of AI technique categories that are relevant to this patent document
-- has_application_field: Boolean variable set to true if any application fields have been assigned to the patent document
-- has_functional_application: Boolean variable set to true if any functional applications have been assigned to the patent document
+- has_application_field: Boolean variable set to TRUE if any application fields have been assigned to the patent document
+- has_functional_application: Boolean variable set to TRUE if any functional applications have been assigned to the patent document
 - has_ai_technique: Boolean variable set to TRUE if any AI techniques have been assigned to the patent document
 
 A summary of the Patent_types included in this AI patent database is as follows:
