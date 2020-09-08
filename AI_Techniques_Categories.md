@@ -1,6 +1,6 @@
 # AI Techniques Categories with Patent Classifications and Keywords
 
-This dimension refers to the specific type of statistical or mathematical model or technique described in a given patent. The categories in this dimension are shown in the following list. The patent classifications and keywords used to assign patents to each category are listed further below. In keywords, ? represents a wildcard for a single character or space, \* represents a wildcard for unlimited characters (e.g. &quot;logic?program\*&quot; includes logic-program, logic programming etc.). Note that all patents are in at least one AI Techniques category, since the Generic/Unspecified category contains those patents not assigned to one of the other AI Techniques categories.
+This dimension refers to the specific type of statistical or mathematical model or technique described in a given patent. The categories in this dimension are shown in the following list. The patent classifications and keywords used to assign patents to each category are listed further below. In keywords, ? represents a wildcard for a single character or space, \* represents a wildcard for unlimited characters (e.g. &quot;logic?program\*&quot; includes logic-program, logic programming). Note that all patents are in at least one AI Techniques category, since the Generic/Unspecified category contains those patents not assigned to one of the other AI Techniques categories.
 
 **Categories in the AI Techniques Dimension**
 
